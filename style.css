@@ -1,0 +1,97 @@
+/*Importing Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    color: #2d342c;
+}
+
+main {
+    height: 100vh;
+    background-color: #f6f4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator {
+    border: 5px solid #2d342c;
+    border-radius: 20px;
+    box-shadow: 5px 5px #2d342c;
+}
+
+#screens-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.input-control {
+    text-align: right;
+    border: none;
+    background-color: none;
+    width: 250px;
+}
+
+#primary-screen {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px 10px;
+
+}
+
+#secondary-screen {
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+#btn-container {
+    background-color: #b8f3d7;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
+
+.calculator-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #f6f4e4;
+    border: 2px solid #2d342c;
+    border-radius: 10px;
+    box-shadow: 2px 2px #2d342c;
+}
+
+.calculator-btn:hover {
+    width: 50px;
+    height: 50px;
+    background-color: #dfded2;
+    border: 2px solid #2d342c;
+    border-radius: 10px;
+    box-shadow: 2px 2px #2d342c;
+}
+
+.calculator-btn:active {
+    background-color: #aaa9a1;
+    color: #2d342c;
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+#plus-btn, #equal-btn {
+    height: 110px;
+}
+
+#clear-btn {
+    width: 110px;
+}
